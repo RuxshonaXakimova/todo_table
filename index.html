@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="one">
+        <div class="wrap">
+            <div class="box_one">
+                <form name="todo">
+                    <div class="input_name">
+                        <label for="name">Имя</label>
+                        <input type="text" id="name" class="name">
+                    </div>
+                    
+                    <div class="input_age">
+                        <label for="age">Возраст</label>
+                        <input type="number" id="age" class="age">
+                    </div>
+                    
+                    <button>Add</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="wrap">
+            <div class="box_two">
+                <table border="1" width="100%">
+
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Имя студента</th>
+                            <th>Год рождения</th>
+                            <th>Действия</th>
+                        </tr>
+                    </thead>
+                    
+                    <!-- <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>alex</td>
+                            <td>2004</td>
+                            <td>
+                                <button class="change">
+                                    <img src="./img/icons8-редактировать-64.png" alt="">
+                                </button>
+                                <button class="delete">
+                                    <img src="./img/icons8-удалить-50.png" alt="">
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody> -->
+
+                </table>
+
+
+                <div class="modal_main">
+                    <form name="form_modal_name">
+                        <label for="modal_name">Change name</label>
+                        <input type="text" id="modal_name">
+                    </form>
+                    <form name="form_modal_age">
+                        <label for="modal_age">Change age</label>
+                        <input type="number" id="modal_age">
+                    </form>
+                    <div class="modal_btns">
+                        <button class="cancel">Cancel</button>
+                        <button class="change">Change</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+</html>

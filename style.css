@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.box_one{
+    padding-top: 50px;
+}
+
+form{
+    display: flex;
+    align-items: end;
+    gap: 35px;
+}
+
+input{
+    display: block;
+    width: 250px;
+    height: 35px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 5px;
+}
+
+.box_one button{
+    padding: 10px 35px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.box_two{
+    margin-top: 40px;
+}
+
+tbody button{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+tbody td{
+    padding: 5px;
+}
+
+tbody button img{
+    width: 25px;
+    height: 25px;
+}
+
+.none{
+    display: none;
+}
+
+.modal_main {
+    background-color: rgb(152, 223, 223);
+    width: auto;
+    height: auto;
+    padding: 35px 50px;
+    border-radius: 12px;
+    position: fixed;
+    top: 200px;
+    left: 50%;
+    translate: -50%;
+}
+
+.modal_main form{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.modal_main form input{
+    border-radius: 8px;
+}
+
+.modal_main .modal_btns{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal_btns button{
+    padding: 10px 35px;
+    border-radius: 8px;
+    border: none;
+}
+
+.cancel{
+    background-color: rgb(255, 184, 184);
+}
+
+.none{
+    display: none;
+}
